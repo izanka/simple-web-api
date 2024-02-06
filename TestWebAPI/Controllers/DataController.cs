@@ -5,7 +5,7 @@ namespace TestWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[EnableCors]
+    // [EnableCors]
     public class DataController : ControllerBase
     {
         [HttpPost, Route("processData")]
